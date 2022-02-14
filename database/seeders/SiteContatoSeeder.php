@@ -14,6 +14,11 @@ class SiteContatoSeeder extends Seeder
      */
     public function run()
     {
+        // create multiple seeds with factory and faker
+        SiteContato::factory()->count(100)->create();
+
+        // Create one seed
+        /*
         SiteContato::create([
             'nome' => 'SD Sistemas',
             'telefone' => '(46) 3524-5766',
@@ -21,5 +26,6 @@ class SiteContatoSeeder extends Seeder
             'motivo' => 1,
             'mensagem' => 'Seja bem vindo ao sistema Super Gestão'
         ]);
+        */
     }
 }
