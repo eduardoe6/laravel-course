@@ -23,7 +23,7 @@ class SiteContatoSeeder extends Seeder
             'nome' => 'SD Sistemas',
             'telefone' => '(46) 3524-5766',
             'email' => 'contato@sd.com.br',
-            'motivo' => 1,
+            'motivo_contato' => 1,
             'mensagem' => 'Seja bem vindo ao sistema Super Gestão'
         ]);
         */
